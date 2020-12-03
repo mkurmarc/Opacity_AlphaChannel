@@ -1,0 +1,20 @@
+section {
+    width: 500px;
+    height: 500px;
+    background-color: magenta;
+}
+
+#rgba {
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255,255,255, 0.5); /*only the background color is transparent. The other elements are not affected*/
+    /*background-color: #00cca0; /*in hexadecimal colors, add two digits control the opacity. 00 is completely transparent and FF is no transparency*/
+} 
+
+#opacity { 
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    opacity: 0.3; /* All the elements within this div, including the text, buttons, etc, are affected by opacity*/   
+}
+
